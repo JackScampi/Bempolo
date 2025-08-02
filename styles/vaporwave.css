@@ -1,0 +1,35 @@
+:root {
+  --vaporwave-pink: #ff77ff;
+  --vaporwave-cyan: #00ffff;
+  --vaporwave-yellow: #fff200;
+  --vaporwave-purple: #7a5fff;
+  --vaporwave-dark: #22223b;
+  --vaporwave-light: #f7f7f8;
+}
+
+body {
+  background: linear-gradient(135deg, var(--vaporwave-pink) 0%, var(--vaporwave-cyan) 100%);
+  color: var(--vaporwave-light);
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.neon-glow {
+  text-shadow:
+    0 0 8px var(--vaporwave-cyan),
+    0 0 16px var(--vaporwave-pink),
+    0 0 32px var(--vaporwave-yellow);
+  color: var(--vaporwave-yellow);
+  font-weight: bold;
+}
+
+.neon-border {
+  border: 2px solid var(--vaporwave-pink);
+  box-shadow: 0 0 16px var(--vaporwave-cyan), 0 0 8px var(--vaporwave-purple);
+}
+
+main {
+  transition: background 0.8s cubic-bezier(.4,0,.2,1);
+}
