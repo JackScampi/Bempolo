@@ -1,0 +1,26 @@
+:root {
+    --vaporwave-pink: #ff77ff;
+    --vaporwave-blue: #00ffff;
+    --vaporwave-purple: #8a2be2;
+    --vaporwave-green: #00ff7f;
+    --vaporwave-yellow: #ffff00;
+}
+
+.neon-glow {
+    text-shadow: 
+        0 0 5px var(--vaporwave-pink), 
+        0 0 10px var(--vaporwave-pink), 
+        0 0 15px var(--vaporwave-blue), 
+        0 0 20px var(--vaporwave-blue), 
+        0 0 25px var(--vaporwave-purple), 
+        0 0 30px var(--vaporwave-purple), 
+        0 0 35px var(--vaporwave-green);
+}
+
+.neon-border {
+    border: 2px solid var(--vaporwave-blue);
+    box-shadow: 
+        0 0 5px var(--vaporwave-pink),
+        0 0 10px var(--vaporwave-pink),
+        0 0 15px var(--vaporwave-blue);
+}
